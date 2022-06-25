@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1/3</div>
+            <img src="./img/163379-svet-elektrik-kvadrat-3840x2160.png" style="width: 100%" alt="">
+            <div class="text">First</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2/3</div>
+            <img src="./img/pexels-piccinng-3075993.jpg" style="width: 100%" alt="">
+            <div class="text">Second</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3/3</div>
+            <img src="./img/wp8931031-anti-coding-coding-club-wallpapers.jpg" style="width: 100%" alt="">
+            <div class="text">Third</div>
+        </div>
+        
+        <a href="#" class="prev" onclick="PlusSlides(-1)">&#10094</a>
+        <a href="#" class="next" onclick="PlusSlides(1)">&#10095</a>
+
+    </div>
+    <br>
+
+    <div style="text-align: center">
+    <span class="dot" onclick="currentSlider(1)"></span>
+    <span class="dot" onclick="currentSlider(2)"></span>
+    <span class="dot" onclick="currentSlider(3)"></span>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
